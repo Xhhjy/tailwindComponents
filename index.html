@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind Css</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div
+      id="content"
+      class="grid min-h-screen place-items-center px-6 lg:px-8 relative z-0 overflow-hidden"
+    >
+      <img
+        src="./checks.png"
+        alt=""
+        class="absolute z-10 -left-24 -top-24 rotate-45 max-h-[70vh]"
+        draggable="false"
+      />
+      <img
+        src="./checks.png"
+        alt=""
+        class="absolute z-10 -right-24 -bottom-24 rotate-[135deg] max-h-[70vh]"
+        draggable="false"
+      />
+      <div id="center" class="text-center mx-auto max-w-2xl">
+        <div
+          class="mb-8 inline-block px-3 rounded-full py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20"
+        >
+          <a href="#"
+            >Read the blog post.
+            <span class="font-semibold text-indigo-600">Read more →</span></a
+          >
+        </div>
+        <h1
+          class="text-4xl font-bold tracking-tight text-gray-900 tracking-tight [text-wrap:balance] sm:text-6xl mb-6"
+        >
+          Must-Have Tailwind Tools
+        </h1>
+        <p class="text-lg text-gray-600 leading-8 [text-wrap:balance] mb-6">
+          Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem
+          cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat
+          aliqua.
+        </p>
+        <div class="flex justify-center gap-x-6 mt-10 items-center">
+          <a
+            href="#"
+            class="shadow-sm bg-indigo-600 text-white px-3.5 py-2.5 text-sm font-semibold rounded-md focus-visable:outline focus-visable:outline-2 focus-visable:outline-offset-2 focus-visable:outline-indigo-600 hover:bg-indigo-500"
+          >
+            Get started
+          </a>
+          <a
+            href="#"
+            class="px-3.5 py-2.5 leading-6 text-gray-900 text-sm font-semibold"
+            >Learn more →</a
+          >
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
